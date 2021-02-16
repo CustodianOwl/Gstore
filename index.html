@@ -1,0 +1,161 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+  <!-- Заголовок страницы,контейнер для других важных данных(не отображается) -->
+  <head>
+    <!-- Заголовок страницы в браузере -->
+    <title>Grid Практика</title>
+    <!-- Подключаем CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Кодировка страницы -->
+    <!-- С появлением HTML5 можно использовать  -->
+    <meta charset="UTF-8" />
+    <!-- Настройки адаптивности страницы  -->
+    <!-- Адаптивность  -->
+  </head>
+  <!-- Отображаемое тело страницы -->
+  <body>
+    <div class="wrapper">
+      <div class="page">
+        <aside class="sidebar">
+          <nav class="sidebar__menu">
+            <h1>GStore</h1>
+            <h2>categories</h2>
+            <ul class="sidebar__list">
+              <li>
+                <a href="" class="sidebar__link">Action games</a>
+              </li>
+              <li>
+                <a href="" class="sidebar__link">Adventure</a>
+              </li>
+              <li>
+                <a href="" class="sidebar__link">RPG</a>
+              </li>
+              <li>
+                <a href="" class="sidebar__link">Simulator games</a>
+              </li>
+              <li>
+                <a href="" class="sidebar__link">Strategy games</a>
+              </li>
+              <li>
+                <a href="" class="sidebar__link">Rasing games</a>
+              </li>
+            </ul>
+            <h3>add product</h3>
+          </nav>
+        </aside>
+        <div class="rightside">
+          <header class="header">
+            <div class="header__search">
+              <input class="search" placeholder="Search" type="text" />
+            </div>
+            <div class="header__user">
+              <img src="img/User.png" alt="" />
+            </div>
+          </header>
+          <main class="main">
+            <section class="content">
+              <h4 class="content__title">Action games</h4>
+              <div class="content__games games">
+                <div class="games__items">
+                  <div class="games__row">
+                    <div class="games__item">
+                      <div class="games__image">
+                        <div class=" games__picture image"></div>
+                      </div>
+                      <div class="games__title">Assassin's Creed 2</div>
+                      <div class="games__discription">
+                        Assasin's Creed 2 - это приключенческ...
+                      </div>
+                      <div class="games__down">
+                        <div class="games__price">$ 399</div>
+                        <a class="games__burger" href="#"> </a>
+                      </div>
+                    </div>
+                    <div class="games__item games__item_discount">
+                      <div class="games__image">
+                        <div class="games__picture image_1">
+                          <div class="image__discount">5 days before <div> the end of discount</div></div>
+                        </div>
+                      </div>
+                      <div class="games__title">Battlefield</div>
+                      <div class="games__discription">
+                        Battlefield 3 - продолжение популярно...
+                      </div>
+                      <div class="games__down">
+                        <div class="games__price"><div class="price__paste"><p class="price__trhough">$</p> <p class="price__trhough" >399.99</p></div> <div class="price__actual"><p class="price__space">$ <p></p>199.99</p></div></div>
+                        <a class="games__burger_discount" href="#"> </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="games__row">
+                    <div class="games__item games__item_discount">
+                      <div class="games__image">
+                        <div class="games__picture image_1">
+                          <div class="image__discount">5 days before <div> the end of discount</div></div>
+                        </div>
+                      </div>
+                      <div class="games__title">Battlefield</div>
+                      <div class="games__discription">
+                        Battlefield 3 - продолжение популярно...
+                      </div>
+                      <div class="games__down">
+                        <div class="games__price"><div class="price__paste"><p class="price__trhough">$</p> <p class="price__trhough" >399.99</p></div> <div class="price__actual"><p class="price__space">$ <p></p>199.99</p></div></div>
+                        <a class=" games__burger_discount" href="#"> </a>
+                      </div>
+                    </div>
+                    <div class="games__item ">
+                      <div class="games__image">
+                        <div class="image"></div>
+                      </div>
+                      <div class="games__title">Assassin's Creed 2</div>
+                      <div class="games__discription">
+                        Assasin's Creed 2 - это приключенческ...
+                      </div>
+                      <div class="games__down">
+                        <div class="games__price">$ 399</div>
+                        <a class="games__burger" href="#"> </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="games__row">
+                    <div class="games__item games__item_discount">
+                      <div class="games__image">
+                        <div class="games__picture image_2">
+                          <div class="image__discount">5 days before <div> the end of discount</div></div>
+                        </div>
+                      </div>
+                      <div class="games__title">Cyberpunk 2077</div>
+                      <div class="games__discription">
+                        Cyberpunk 77 - это игра от CD Project R...
+                      </div>
+                      <div class="games__down">
+                        <div class="games__price"><div class="price__paste"><p class="price__trhough">$</p> <p class="price__trhough" >399.99</p></div> <div class="price__actual"><p class="price__space">$ <p></p>199.99</p></div></div>
+                        <a class=" games__burger_discount" href="#"> </a>
+                      </div>
+                    </div>
+                  <div class="games__item">
+                    <div class="games__image">
+                      <div class="image_3"></div>
+                    </div>
+                    <div class="games__title">Call of Duty: Modern Warfare 3</div>
+                    <div class="games__discription">
+                      Call of Duty: Modern Warfare 3 - очеред...
+                    </div>
+                    <div class="games__down">
+                      <div class="games__price"> <div class="price__actual"><p class="price__space">$ <p></p>199.99</p></div></div>
+                      <a class="games__burger_1" href="#"> </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </section>
+          </main>
+          <div class="next-results"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
