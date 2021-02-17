@@ -102,6 +102,9 @@ body {
   margin: 0 0 0 3.5%;
   padding: 0 5px 0 0;
 }
+.burger {
+  display: none;
+}
 h1 {
   font-family: Montserrat;
   font-style: normal;
@@ -348,6 +351,7 @@ h4 {
   .games__items {
     flex-direction: column;
   }
+
   .sidebar {
     flex: 2.8 2.8 100%;
   }
@@ -386,10 +390,7 @@ h4 {
     padding: 0px 0 0px 10.66%;
   }
 }
-@media (max-width: 550px) {
-  .games__items {
-    flex-direction: column;
-  }
+@media (max-width: 767px) {
   .games__item_discount_three {
     order: 3;
   }
@@ -398,6 +399,37 @@ h4 {
   }
   .games__item_discount_one {
     order: 1;
+  }
+  .sidebar {
+    display: none;
+  }
+  .header__right {
+    justify-content: space-between;
+    flex: 2 2 100%;
+    display: none;
+  }
+  h1 {
+    font-size: 24px;
+    flex: 3.5 3.5 100%;
+    margin: 15px 0 15px 3.5%;
+  }
+  h2 {
+    flex: 2.5 2.5 100%;
+    align-self: center;
+    padding: 0px 0 0px 0;
+    margin: 0 10% 0 4%;
+  }
+  h2::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url(../img/Vector2.png) 0px 12.5px no-repeat;
+    margin: 0 5px 0 0px;
+  }
+  .burger {
+    display: block;
+    margin: 30px 20px;
   }
 }
 
